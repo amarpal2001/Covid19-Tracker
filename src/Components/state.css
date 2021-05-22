@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.column{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    float:left;
+    margin-left: 70px;
+    margin-top:15px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.main{
+    margin-top: 2%;
+    margin-left: 150px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+marquee{
+    color: rgb(4, 0, 255);
+}
+body{
+    background-image: url('https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ @media(max-width:640px){
+    .column{
+        margin-left: 50px;
+        margin-top: 30px;
+
+    }
+ } 
+
+ @media(max-width:550px){
+    .column{
+        margin-left: 10px;
+        margin-top: 30px;
+
+    }
+ } 
+
+ @media(max-width:510px){
+    .column{
+        margin-left: -20px;
+        margin-top: 30px;
+
+    }
+ } 
+
+ @media(max-width:460px){
+    .column{
+        margin-left: -50px;
+        margin-top: 30px;
+
+    }
+ } 
+
+ @media(max-width:420px){
+    .column{
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+ } 
+
+ @media(max-width:360px){
+    .column{
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+ } 
+
+ @media(max-width:340px){
+    .column{
+        margin-top: 30px;
+        margin-left: -120px;
+    }
+ } 
